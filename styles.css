@@ -91,23 +91,23 @@ img.avatar {
     margin-right: 6px;
 }
 
-.job {
+.school {
     border-bottom: 1px solid lightpink;
     margin: 0 0 0 10px;
     padding: 10px 0 0 0;
 }
 
-.job:last-child {
+.school:last-child {
     border-bottom: none;
 }
 
-.job-title-container {
+.school-title-container {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
 }
 
-.job-company {
+.school-name {
     font-weight: bold;
     line-height: 1.2;
 }
