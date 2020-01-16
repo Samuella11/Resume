@@ -133,3 +133,24 @@ img.avatar {
     height: 35px;
     opacity: 0.75;
 }
+
+@media only screen and (max-width: 768px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+    .links,
+    .job-title-container {
+        flex-direction: column;
+    }
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .interests-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .interests-container img {
+        margin-right: 32px;
+        margin-bottom: 16px;
+    }
+}
