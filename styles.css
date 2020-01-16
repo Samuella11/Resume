@@ -151,22 +151,72 @@ img.avatar {
 
 .organized {
     width: 80%;
+    animation: organized 2s;
 }
 
 .team_work {
     width: 90%;
+    animation: team_work 2s;
 }
 
 .analytical_thinking {
     width: 90%;
+    animation: analytical_thinking 2s;
 }
 
 .communication {
     width: 85%;
+    animation: communication 2s;
 }
 
 .problem_solver {
     width: 75%;
+    animation: problem_solver 2s;
+}
+
+@keyframes organized {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%
+    }
+}
+
+@keyframes team_work {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%
+    }
+}
+
+@keyframes analytical_thinking {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%
+    }
+}
+
+@keyframes communication {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%
+    }
+}
+
+@keyframes problem_solver {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%
+    }
 }
 
 .interests-container {
