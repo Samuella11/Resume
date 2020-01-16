@@ -119,9 +119,54 @@ img.avatar {
     margin-bottom: 24px;
 }
 
-.skills-container ul {
+.skills-container ul,
+.personal-qualities-container ul {
     margin-left: 20px;
     list-style-type: disc;
+}
+
+.personal-qualities-container {
+    margin: 0 24px 30px 0;
+}
+
+.personal-qualities-container li {
+    margin: 20px 0;
+}
+
+.bar {
+    background: #323232;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba (0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px palevioletred;
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: palevioletred;
+}
+
+.organized {
+    width: 80%;
+}
+
+.team_work {
+    width: 90%;
+}
+
+.analytical_thinking {
+    width: 90%;
+}
+
+.communication {
+    width: 85%;
+}
+
+.problem_solver {
+    width: 75%;
 }
 
 .interests-container {
