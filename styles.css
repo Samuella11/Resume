@@ -70,6 +70,15 @@ img.avatar {
     line-height: 1;
 }
 
+.text h1 {
+    cursor: context-menu;
+}
+
+span:hover {
+    color: palevioletred;
+    transition: all .5s;
+}
+
 .my-title {
     font-size: 24px;
     font-weight: 300;
